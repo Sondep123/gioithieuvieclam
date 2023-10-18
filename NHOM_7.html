@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="main.css">
+   <link rel="shortcut icon" href="./pic/logo.png" type="image/x-icon">
+
+  <title> Bài Tập Lớn:</title>
+
+ <style>
+  .big-image::before{
+    content:"";
+    display:block;
+    position:absolute;
+    width:100%;
+    height:100%;
+    background-image: url(/pic/cty.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    z-index: -2;
+    animation: Inout 5s infinite;
+ }
+ @keyframes Inout {
+    0%,100%{
+        transform: scale(1);}
+    50%{
+        transform:scale(1.1);}
+ }
+ </style>
+ 
+</head>
+<body>
+
+          <section class="top">
+            <div class="container">
+                 <div class="row justify-content">
+                       <div class="logo"><img src="/pic/logo.png" alt=""></div>
+                        <div class="menu-bar">
+                         <span></span>
+                        </div>
+                           
+                        <div class="menu-items">
+                          <ul>
+                            <li class="menu-item"> <a href="#P1"> Trang chủ</a></li>
+                            <li class="menu-item"> <a href="#P2"> xem công ty</a></li>
+                            <li class="menu-item"> <a href="#P3"> công việc</a></li>
+                            <li class="menu-item"> <a href="#P4"> liên hệ</a></li>
+                          </ul>
+                        </div>
+                       </div>
+            
+            </div>
+          </section>
+
+
+          <section class="big-image">
+            <div class="big-image-content">
+              <h2 id="P1"> Công Ty Đa Cấp</h2>
+              <p >Đơn vị nằm trong top tập đoàn lớn nhất Việt Nam. </p>
+              <button class="big-image-content-btn btn"> <a href="./bt1.html" target="_blank" style="font-size: 100%;"> đăng ký </a></button>
+           
+            </div>
+
+
+          </section>
+
+      <section class="about section-pading">
+          <div class="container">
+            <div class="row">
+              <div class="section-title">
+
+                <h2 data-title="Giới Thiệu" id="P2"> việc làm tại Công Ty</h2>
+              </div>
+            </div>
+
+               <div class="row">
+              
+                  <div class="about-item">
+
+                    <h2 > Chào mừng bạn đến với Công Ty chúng tôi:</h2>
+                    <p> Tiền thân của Vingroup là Tập đoàn Technocom, thành lập năm 1993 tại Ucraina. Đầu những năm 2000, Technocom trở về Việt Nam, tập trung đầu tư vào lĩnh vực du lịch và bất động sản với hai thương hiệu chiến lược ban đầu là Vinpearl và Vincom. Đến tháng 1/2012, công ty CP Vincom và Công ty CP Vinpearl sáp nhập, chính thức hoạt động dưới mô hình Tập đoàn với tên gọi Tập đoàn Vingroup – Công ty CP.</p>
+                      <p> Tuy vậy, quy trình thi tuyển và môi trường làm việc tại Vingroup vẫn là vấn đề được nhiều ứng viên quan tâm khi tìm hiểu về doanh nghiệp. Vì vậy, hãy cùng Viecoi.vn khám phá những điều cần biết về việc làm tại Vingroup nhé!</p>
+                      <button class="btn">
+                        XEM CÔNG VIỆC
+                      </button>
+                  
+                    </div>
+
+                  <div class="about-item">
+                   
+                   <div class="about-item-img">
+                    <span> uy tín, chất lượng</span>
+                    <img src="pic/vinbus.jpeg" alt="">
+                   </div>
+                  
+               </div>
+               </div>
+          </div>
+
+               </section>
+
+               <section class="menu section-pading">
+                   <div class="container">
+                     <div class="row">
+                      <div class="section-title">
+                           <h2 data-title="Đăng kí ngay" id="P3"> Công việc theo sở trường của bạn</h2>
+                      </div>
+
+                   </div>
+                     <div class="row">
+                        <div class="menu-title">
+                          <button class="menu-button active" data-title="#TRANG-1"> TRANG 1 </button>
+                         
+                          <button class="menu-button" data-title="#TRANG-2"> TRANG 2</button>
+                      
+                        </div>
+
+                     </div>
+                          <div class="row justify-content">
+
+                              <div class="menu-item-content active" id="TRANG-1">
+                                <div class="food-items">
+                                  <div class="food-item">
+                                    <img src="./pic/e1.jpg" alt="">
+                                    <p>  <a href="https://s.net.vn/j9OO" target="_blank" style="font-size: 100%;">  Chăm sóc , sửa chữa xe máy,ôtô </a></p>
+                                 </div>
+    
+                                 <div class="food-price">
+                                     <p>đăng kí</p>
+    
+                                 </div>
+    
+                                </div>
+                                <div class="food-items">
+                                  <div class="food-item">
+                                    <img src="./pic/e2.jpg" alt="">
+                                    <p> <a href="https://s.net.vn/z0SZ" target="_blank" style="font-size: 100%;">Nghiên cứu phát triển các ứng dụng </a></p>
+                                 </div>
+    
+                                 <div class="food-price">
+                                     <p>đăng kí</p>
+    
+                                 </div>
+    
+                                </div>
+                                <div class="food-items">
+                                  <div class="food-item">
+                                    <img src="./pic/e3.jpg" alt="">
+                                    <p> <a href="https://s.net.vn/VQfZ" target="_blank" style="font-size: 100%;">Phát triển bất động sản </a></p>
+                                 </div>
+    
+                                 <div class="food-price">
+                                     <p>đăng kí</p>
+    
+                                 </div>
+    
+                                </div>
+                                <div class="food-items">
+                                  <div class="food-item">
+                                    <img src="./pic/e4.jpg" alt="">
+                                    <p> <a href="https://s.net.vn/uXTK" target="_blank" style="font-size: 100%;"> Bác sĩ bệnh viện </a></p>
+                                 </div>
+    
+                                 <div class="food-price">
+                                     <p>đăng kí</p>
+    
+                                 </div>
+    
+                                </div>
+                                <div class="food-items">
+                                  <div class="food-item">
+                                    <img src="./pic/e5.jpg" alt="">
+                                    <p> <a href="https://s.net.vn/t4ZB" target="_blank" style="font-size: 100%;">Nhân viên bán hàng </a> </p>
+                                 </div>
+    
+                                 <div class="food-price">
+                                     <p>đăng kí</p>
+    
+                                 </div>
+    
+                                </div>
+                                <div class="food-items">
+                                  <div class="food-item">
+                                    <img src="./pic/e6.jpg" alt="">
+                                    <p> <a href="https://s.net.vn/Ovu2" target="_blank" style="font-size: 100%;">giáo viên trường học </a></p>
+                                 </div>
+    
+                                 <div class="food-price">
+                                     <p>đăng kí</p>
+    
+                                 </div>
+    
+                                </div>
+                                <div class="food-items">
+                                  <div class="food-item">
+                                    <img src="./pic/e7.jpg" alt="">
+                                    <p> <a href="https://s.net.vn/ncKf" target="_blank" style="font-size: 100%;">MC Truyền hình </a></p>
+                                 </div>
+    
+                                 <div class="food-price">
+                                     <p>đăng kí</p>
+    
+                                 </div>
+    
+                                </div>
+                                <div class="food-items">
+                                  <div class="food-item">
+                                    <img src="./pic/e8.jpg" alt="">
+                                    <p> <a href="https://s.net.vn/ObnO" target="_blank" style="font-size: 100%;">Vận tải , giao thông </a></p>
+                                 </div>
+    
+                                 <div class="food-price">
+                                     <p>đăng kí</p>
+    
+                                 </div>
+    
+                                </div>
+                              </div>
+                              <div class="menu-item-content " id="TRANG-2"> 
+                                <div class="food-items">
+                                  <div class="food-item">
+                                    <img src="./pic/t1.jpg" alt="">
+                                    <p> <a href="https://s.net.vn/srEa" target="_blank" style="font-size: 100%;"> Nhân viên khách sạn </a></p>
+                                 </div>
+    
+                                 <div class="food-price">
+                                     <p>đăng kí</p>
+    
+                                 </div>
+    
+                                </div>
+                                <div class="food-items">
+                                  <div class="food-item">
+                                    <img src="./pic/t2.webp" alt="">
+                                    <p> <a href="https://s.net.vn/lRib" target="_blank" style="font-size: 100%;">Tiếp viên hàng không </a></p>
+                                 </div>
+    
+                                 <div class="food-price">
+                                     <p>đăng kí</p>
+    
+                                 </div>
+    
+                                </div>
+                                <div class="food-items">
+                                  <div class="food-item">
+                                    <img src="./pic/t3.jpeg" alt="">
+                                    <p> <a href="https://s.net.vn/8zxS" target="_blank" style="font-size: 100%;">Nhân viên dầu khí </a></p>
+                                 </div>
+    
+                                 <div class="food-price">
+                                     <p>đăng kí</p>
+    
+                                 </div>
+    
+                                </div>
+                                <div class="food-items">
+                                  <div class="food-item">
+                                    <img src="./pic/t4.jpg" alt="">
+                                    <p> <a href="https://s.net.vn/WihE" target="_blank" style="font-size: 100%;">Nhân viên lập trình, thiết kế </a></p>
+                                 </div>
+    
+                                 <div class="food-price">
+                                     <p>đăng kí</p>
+    
+                                 </div>
+    
+                                </div>
+                                <div class="food-items">
+                                  <div class="food-item">
+                                    <img src="./pic/t5.jpg" alt="">
+                                    <p> <a href="https://s.net.vn/dDoC" target="_blank" style="font-size: 100%;">Nhân viên thủy sản  </a></p>
+                                 </div>
+    
+                                 <div class="food-price">
+                                     <p>đăng kí</p>
+    
+                                 </div>
+    
+                                </div>
+                                <div class="food-items">
+                                  <div class="food-item">
+                                    <img src="./pic/t6.jpg" alt="">
+                                    <p> <a href="https://s.net.vn/MeOC" target="_blank" style="font-size: 100%;">Nhân viên dệt , may </a></p>
+                                 </div>
+    
+                                 <div class="food-price">
+                                     <p>đăng kí</p>
+    
+                                 </div>
+    
+                                </div>
+                                <div class="food-items">
+                                  <div class="food-item">
+                                    <img src="./pic/t7.jpg" alt="">
+                                    <p> <a href="https://s.net.vn/S4Gu" target="_blank" style="font-size: 100%;">Luật sư </a></p>
+                                 </div>
+    
+                                 <div class="food-price">
+                                     <p>đăng kí</p>
+    
+                                 </div>
+    
+                                </div>
+                                <div class="food-items">
+                                  <div class="food-item">
+                                    <img src="./pic/t8.jpg" alt="">
+                                    <p> <a href="https://s.net.vn/31cg" target="_blank" style="font-size: 100%;">Công an nhân dân </a></p>
+                                 </div>
+    
+                                 <div class="food-price">
+                                     <p>đăng kí</p>
+    
+                                 </div>
+    
+                                </div>
+                              </div>
+                                   
+                          </div>
+                   </div>
+                  </section>
+
+                  <section class="phan-hoi section-pading">
+                     <div class="container">
+                        <div class="row">
+                             <div class="section-title">
+                                <h2 data-title="NHÓM 6" id="P4"> giới thiệu thành viên</h2>
+                             </div>
+                            
+                        </div>
+                        <div class="row">
+                          <div class="phan-hoi-items">
+                            <div class="phan-hoi-item">
+                                 <div class="phan-hoi-item-content">
+                                   <div class="phan-hoi-item-img-content-text">
+                                         <h2>Ninh Thị Hằng</h2>
+                                         <span>mã sv: 20221601</span>
+                                   </div>
+                                   <div class="phan-hoi-item-img-content-img">
+                                      <img src="./pic/hằng.jpg" alt="">
+
+
+                                   </div>
+                                 </div>
+                                <p>sở thích: đi phượt
+                                </p>
+                                 
+                            </div>
+                            <div class="phan-hoi-item">
+                              <div class="phan-hoi-item-content">
+                                <div class="phan-hoi-item-img-content-text">
+                                      <h2>Nguyễn Lam Sơn</h2>
+                                      <span>mã sv: 20221628</span>
+                                      <p>sdt: 0366770088</p>
+                                </div>
+                                <div class="phan-hoi-item-img-content-img">
+                                   <img src="./pic/sơndz.jpg" alt="">
+
+
+                                </div>
+                              </div>
+                             <p>sở thích: thể thao, xem phim, mua sắm.. 
+                                          
+                             </p>
+                              
+                         </div>
+                         <div class="phan-hoi-item">
+                          <div class="phan-hoi-item-content">
+                            <div class="phan-hoi-item-img-content-text">
+                                  <h2> Nguyễn Thùy Dung</h2>
+                                  <span>mã sv: 20222477</span>
+                            </div>
+                            <div class="phan-hoi-item-img-content-img">
+                               <img src="./pic/dung.jpg" alt="">
+
+
+                            </div>
+                          </div>
+                         <p>sở thích: xem phim..</p>
+                         
+                     </div>
+                     <div class="phan-hoi-item">
+                      <div class="phan-hoi-item-content">
+                        <div class="phan-hoi-item-img-content-text">
+                              <h2>Phan Tiến Tiến</h2>
+                              <span>mã sv: 20221654</span>
+                        </div>
+                        <div class="phan-hoi-item-img-content-img">
+                           <img src="./pic/tiến.jpg" alt="">
+
+
+                        </div>
+                      </div>
+                     <p>sở thích: đi du lịch</p>
+                      
+                 </div>
+                 
+                 <div class="phan-hoi-item">
+                  <div class="phan-hoi-item-content">
+                    <div class="phan-hoi-item-img-content-text">
+                          <h2>Mai Đức Long</h2>
+                          <span>mã sv: 20221565</span>
+                    </div>
+                    <div class="phan-hoi-item-img-content-img">
+                       <img src="./pic/long.jpg" alt="">
+
+
+                    </div>
+                  </div>
+                 <p>sở thích: ăn rồi ngủ</p>
+                  
+             </div>
+                         </div>
+
+                        </div>
+                     </div>
+
+
+                  </section>
+                  <video width="1500" height="500" controls>
+                    <source src="./pic/nhoms6.mp4" type="video/mp4">
+                  </video>
+  
+
+
+  <script src="script.js"></script>
+</body>
+</html>

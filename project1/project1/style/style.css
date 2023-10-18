@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+/* style cho thanh menu */
+.menu{
+    background-color: gray;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    
+}
+a{
+    text-decoration: none;
+}
+
+/* style cho content */
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.container{
+    box-sizing: border-box;
+    width: 200px;
+    /* object-fit: scale-down; */
+    border: 1px solid yellow;
+}
+.container p{
+    border: 5px solid gray;
+    text-align: start;
+    padding: 5px
+}
+img{
+    width: 200px;
+    object-fit: contain;
+}
